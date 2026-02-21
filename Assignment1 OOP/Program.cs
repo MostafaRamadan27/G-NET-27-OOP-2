@@ -15,6 +15,16 @@
             // because user can put invalid data 
             #endregion
 
+            #region Q2
+            // field  => 1- direct data storage / 2- no validations / 3- break encapsulation
+            // property => 1- controlled access / 2- can validate / 3- enforce encapsulation
+
+            //private int _id;
+            //puplic int id { 
+            
+            //get { return _id }
+            //}
+            #endregion
 
 
             #endregion
