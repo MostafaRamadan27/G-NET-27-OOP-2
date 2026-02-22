@@ -19,15 +19,24 @@
             // field  => 1- direct data storage / 2- no validations / 3- break encapsulation
             // property => 1- controlled access / 2- can validate / 3- enforce encapsulation
 
-            //private int _id;
-            //puplic int id { 
-            
-            //get { return _id }
-            //}
+            // property can cotain logic 
+
+            // private int _number1;
+            // private int _number2;
+
+            // public int calculatedNumber {
+            //   get {
+            //     return _number1 + _number2;
+            //   }
+            //   
+            // }
             #endregion
 
 
             #endregion
+
+
+
         }
     }
 }
