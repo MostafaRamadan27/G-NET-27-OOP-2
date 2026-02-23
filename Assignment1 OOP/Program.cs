@@ -40,6 +40,11 @@
             // if i need to search with two different way like like in library Example when ineed to search by index ot ISBN 
             #endregion
 
+
+            #region Q4
+            // a) Static mean the member belong to type itself // it shared for all object and can be accessed without creating an instance of the class 
+            // b) cant access item directly because its not static only access with instance of class
+            #endregion
             #endregion
 
 
