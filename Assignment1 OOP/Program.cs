@@ -33,7 +33,17 @@
             #endregion
 
 
+            #region Q3 
+            //a) indexer => allow object to be indexed like array 
+            // b) error out of range => TO Make it safe use validation in indexer to check if index is in range before accessing the element
+            // c) yes class can have multiple indexers with different parameter types 
+            // if i need to search with two different way like like in library Example when ineed to search by index ot ISBN 
             #endregion
+
+            #endregion
+
+
+
 
 
 
