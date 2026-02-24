@@ -1,4 +1,8 @@
-﻿namespace Assignment1_OOP
+﻿using Assignment1_OOP.Class;
+using Assignment1_OOP.Enum;
+using Assignment1_OOP.Struct;
+
+namespace Assignment1_OOP
 {
     internal class Program
     {
@@ -48,10 +52,86 @@
             #endregion
 
 
+            #region Part 02 Practical (Extending the Movie Ticket Booking System)
+            //Cinema cinema = new Cinema();
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine($"Enter data for Ticket {i + 1}");
 
+            //    Console.Write("Movie Name: ");
+            //    string movieName = Console.ReadLine();
 
+            //    Console.Write("Ticket Type (0 = Regular, 1 = VIP, 2 = Premium): ");
+            //    TicketType type = (TicketType)int.Parse(Console.ReadLine());
 
+            //    Console.Write("Seat Row (A-Z): ");
+            //    char row = char.Parse(Console.ReadLine());
 
+            //    Console.Write("Seat Number: ");
+            //    int column = int.Parse(Console.ReadLine());
+
+            //    Console.Write("Price: ");
+            //    decimal price = decimal.Parse(Console.ReadLine());
+
+            //    SeatLocation seat = new SeatLocation
+            //    {
+            //        Row = row,
+            //        Column = column
+            //    };
+            //    Ticket ticket = new Ticket(movieName, type, seat, price);
+               
+            //    cinema.AddTicket(ticket);
+            //}
+            //Console.WriteLine("--- All Tickets ---");
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Ticket t = cinema[i];
+
+            //    if (t != null)
+            //    {
+                    
+            //        Console.Write($"TicketId# {t.TicketId} |");
+            //        Console.Write($"MovieName: {t.MovieName} |");
+            //        Console.Write($"Type: {t.Type} |");
+            //        Console.Write($"Seat {t.Seat.Row} - {t.Seat.Column} |");
+            //        Console.Write($"Price: {t.Price}  |");
+            //        Console.Write($"Price After Tax: {t.PriceAfterTax}");
+            //    }
+            //}
+            //Console.Write("Enter movie name to search: ");
+            //string searchName = Console.ReadLine();
+
+            //Ticket found = cinema.GetMovieName(searchName);
+
+            //if (found != null)
+            //{
+
+            //    Console.Write($"Ticket #{found.TicketId} |");
+            //    Console.Write($"type #{found._type} |");
+            //    Console.Write($"Seat #{found.Seat} |");
+            //    Console.Write($"Price #{found.Price} |");
+           
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Movie not found.");
+            //}
+
+        
+            //Console.WriteLine($"Total Tickets Sold: {Ticket.GetTotalTicketsSold()}");
+
+            //Console.WriteLine("Booking References:");
+            //Console.WriteLine(BookingHelper.GenerateBookingReference());
+            //Console.WriteLine(BookingHelper.GenerateBookingReference());
+
+            //double discountTotal = BookingHelper.CalcGroupDiscount(5, 80);
+            //Console.WriteLine($"\nGroup Discount Total (5 tickets × 80 EGP): {discountTotal} EGP");
         }
+        #endregion
+
+
+
+    
     }
 }
